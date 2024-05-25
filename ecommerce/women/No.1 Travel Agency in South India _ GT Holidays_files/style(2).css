@@ -1,0 +1,1177 @@
+/*
+Theme Name:     Traveler Childtheme
+Description:    
+Author:         Shinetheme
+Template:       traveler
+
+(optional values you can add: Theme URI, Author URI, Version)
+*/
+
+.search-result-page.st-tours .grid-item .service-border,
+.owl-carousel .owl-item img {
+  height: auto !important;
+}
+
+.flexMenu {
+  display: flex !important;
+  width: 500px;
+}
+
+.gt-custom-sidebar-column .widget_nav_menu {
+  width: 100%;
+  box-shadow: 0px 0px 10px 5px rgb(0 0 0 / 20%);
+  background: #fff;
+  padding: 10px;
+}
+
+.gt-custom-sidebar-column .widget_nav_menu a {
+  background-color: #f7f7f7;
+  color: #000;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  margin-bottom: 5px;
+  font-size: 18px;
+  padding-left: 30px;
+}
+
+.gt-custom-sidebar-column .widget_nav_menu ul {
+  padding-left: 0px;
+  margin-bottom: 0px;
+  list-style-type: none;
+}
+
+.gt-custom-sidebar-column .widget_nav_menu li {
+  margin-bottom: 5px;
+}
+
+.gt-custom-sidebar-column .widget_nav_menu li:last-child,
+.gt-custom-sidebar-column .widget_nav_menu li a:last-child {
+  margin-bottom: 0px;
+}
+
+.gt-custom-sidebar-column .widget_nav_menu li.current-menu-item a {
+  background-color: #ffcc00;
+}
+
+.gt-custom-sidebar-contact a.linkno {
+  color: #1a2b48;
+  font-size: 14px;
+}
+
+.gt-custom-sidebar-contact a.linkno:hover {
+  text-decoration: none;
+}
+
+.gt-custom-sidebar-contact .fa-phone,
+.gt-custom-sidebar-contact .fa-envelope-o {
+  -webkit-text-fill-color: #1a2b48 !important;
+}
+
+.gt-custom-sidebar-column form input {
+  margin-bottom: 12px;
+  border: 1px solid #d9d9d9;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.gt-custom-sidebar-column form select,
+.fixed-on-mobile select {
+  margin-bottom: 12px;
+  border: 1px solid #d9d9d9;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  color: #000;
+}
+
+.gt-custom-sidebar-column form input.wpcf7-submit {
+  width: 100%;
+  background: #1a2b48;
+  color: #ffcc00;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.gt-custom-sidebar-column input.wpcf7-submit:hover {
+  background: #ffcc00;
+  color: #1a2b48;
+}
+
+.gt-custom-sidebar-column .gt-contact-form-section {
+  background-color: #fff;
+  width: 100%;
+  color: #1a2b48;
+  box-shadow: 0px 0px 10px 5px rgb(0 0 0 / 20%);
+  padding: 0;
+}
+
+.gt-custom-sidebar-column .form-head {
+  display: block;
+  font-size: 1.3rem;
+  text-align: center;
+  font-weight: 600;
+  padding: 12px;
+}
+
+.gt-contact-form-section .wpcf7 form .wpcf7-response-output,
+.fixed-on-mobile .wpcf7 form .wpcf7-response-output {
+  color: #1a2b48;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.single .blog-content .article ul li {
+  font-size: 13px;
+}
+
+.gt_packages_padding_top {
+  padding-top: 50px;
+}
+.page-id-31441 .search-result-page .banner {
+  height: 264px;
+}
+.page-id-31441 .search-result-page .banner h1 {
+  color: #000;
+}
+.st-contact-info .info-content h3{
+  text-transform: capitalize;
+}
+/**** Header tag Work ***/
+p.gtt_home_sectionOne {
+  text-align: center;
+  color: #333 !important;
+  font-size: 28px !important;
+  margin: 0 !important;
+  font-family: "Playfair Display", serif !important;
+  font-weight: 500 !important;
+  line-height: 1.3;
+}
+h3.title {
+  font-family: "Playfair Display", serif !important;
+  text-align: center;
+  color: #fff !important;
+  font-size: 28px !important;
+}
+h3.service-title.plr15 {
+  color: #000 !important;
+  font-size: 16px !important;
+  margin-bottom: 5px !important;
+}
+p.service-location.plr15 {
+  margin-bottom: 5px !important;
+}
+.gth_home_blogLayer .title.f18 {
+  margin-bottom: 0;
+  font-size: 19px !important;
+  text-align: left;
+}
+.whitecontent p.gtt_contact_heading {
+  margin-bottom: 20px !important;
+  font-size: 28px !important;
+  font-family: "Playfair Display", serif !important;
+  text-align: center;
+  font-weight: 500;
+  color: #000 !important;
+}
+.whitecontent p.gtt_contact_heading strong {
+  font-weight: 500;
+}
+p.gth_testimonial_heading {
+  font-size: 28px !important;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  line-height: 1.1;
+  color: #000 !important;
+  margin-bottom: 20px !important;
+}
+p.gth_testimonial_personName {
+  font-size: 16px !important;
+  margin-bottom: 10px !important;
+  font-family: "Playfair Display", serif !important;
+  font-weight: 500;
+  line-height: 1.1;
+  margin-top: 10px;
+  color: #000 !important;
+}
+p.media-heading {
+  color: #000 !important;
+}
+p.gth_footer_heading,
+p.gth_footer_contactDetail {
+  font-size: 28px !important;
+  font-family: "Playfair Display", serif;
+  color: #bdbdbd !important;
+}
+p.gth_footer_contactDetail a {
+  color: #bdbdbd !important;
+}
+h2.gth_tourText {
+  font-size: 20px !important;
+  color: #000 !important;
+  margin-bottom: 0 !important;
+  margin-top: 50px !important;
+}
+h4.gth_locationList {
+  color: #000 !important;
+  margin-top: 0 !important;
+}
+.gth_home_blogLayer .title.f18 {
+  margin-top: 0;
+}
+.post-div .row {
+  display: flex;
+  align-items: center;
+}
+p.gth_locationDetail {
+  color: #000 !important;
+  font-size: 16px !important;
+  font-family: "Playfair Display", serif;
+}
+.gt_packages_padding_top {
+  display: none;
+}
+#homebooking .row {
+  display: flex;
+  align-items: center;
+}
+p.gth_tabhead {
+  font-family: "Playfair Display", serif;
+  font-size: 16px !important;
+  color: var(--main-color, #1a2b48) !important;
+  margin: 0;
+  float: left;
+  line-height: 23px !important;
+}
+p.gth_tourHeadingSing {
+  font-family: "Playfair Display", serif !important;
+  font-size: 24px !important;
+  color: #000 !important;
+}
+p.gth_tourRelatHeading {
+  font-family: "Playfair Display", serif !important;
+  font-size: 28px !important;
+  color: #000 !important;
+  text-align: center !important;
+  font-weight: 500;
+}
+p.gth_name {
+  font-size: 14px !important;
+  color: var(--main-color, #1a2b48) !important;
+  margin: 0 !important;
+  margin-bottom: 3px !important;
+  font-family: "Playfair Display", serif !important;
+}
+.whitecontent p.gth_contactSidbar {
+  color: #000 !important;
+  font-size: 28px !important;
+  font-family: "Playfair Display", serif !important;
+}
+p.gth_sidebar_cont {
+  color: #000 !important;
+  font-size: 28px !important;
+  font-family: "Playfair Display", serif !important;
+  line-height: 30px !important;
+}
+p.gth_blacktext {
+  color: #000 !important;
+  margin-bottom: 10px !important;
+}
+p.gth_blogsidehead {
+  font-size: 20px !important;
+  line-height: 1.5em;
+  font-weight: 700 !important;
+  color: var(--main-color, #1a2b48) !important;
+  font-weight: 500;
+  background-color: #fff;
+  position: relative;
+  display: inline-block;
+  z-index: 9;
+  padding-right: 25px;
+  font-family: "Playfair Display", serif !important;
+}
+p.gth_titleblog {
+  line-height: 20px !important;
+  font-size: 18px !important;
+  line-height: 1.667em;
+  font-weight: 700;
+  color: #303030 !important;
+}
+p.gth_titleblog a {
+  color: var(--main-color, #1a2b48) !important;
+}
+p.gth_titleblog:hover a {
+  color: #ffcc00 !important;
+}
+.st-faq-new h4 {
+  font-family: "Playfair Display", serif !important;
+  font-size: 28px !important;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.st-faq-new h2 {
+  font-family: "Playfair Display", serif !important;
+  font-size: 28px !important;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.st-faq-new .item .header .gt-title{
+  font-family: 'Playfair Display', serif !important;
+    font-weight: 500 !important;
+    margin-top: 0;
+    line-height: 22px;
+    font-size: 16px;
+    float: left;
+}
+h2.post-title {
+  font-family: "Playfair Display", serif !important;
+}
+h2 {
+  color: var(--main-color, #1a2b48) !important;
+}
+h2.post-title a {
+  color: var(--main-color, #1a2b48) !important;
+}
+.single-post h2 {
+  font-size: 24px;
+}
+.single-post h3 {
+  font-size: 20px;
+}
+.single-post h4 {
+  font-size: 18px;
+}
+header#header .header .header-left .logo {
+  width: 20%;
+}
+/**** End Header tag Work ***/
+/*** Tour Package Code ***/
+.gth_tourDiv a,
+.gth_tourDiv a:hover {
+  text-decoration: none;
+}
+.gth_tourDiv {
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px rgb(26 43 72 / 30%);
+  padding: 5px;
+  width: 100%;
+  float: left;
+}
+.gth_tourDiv img {
+  width: 100%;
+  height: 100%;
+}
+.gth_tourDiv p {
+  width: 100%;
+  float: left;
+  margin: 0;
+}
+h3.gth_tourHeading {
+  color: #000 !important;
+  font-size: 16px !important;
+  margin-bottom: 5px !important;
+  line-height: 22px;
+  margin-top: 0;
+}
+.gth_toursection {
+  padding: 10px;
+  width: 100%;
+  float: left;
+}
+p.gth_tourtime {
+  color: #efa41b !important;
+}
+/*** End Tour Package Code ***/
+
+/* Tour Individual Package */
+
+body.single.single-st_tours .gth_itinerary_content p {
+  margin-bottom: 0px;
+  padding-top: 20px;
+  font-size: 15px !important;
+}
+.packagesGT .fixed-on-mobile {
+  position: relative !important;
+}
+.pagination.moderm-pagination {
+  display: none !important;
+}
+.hidden_wa {
+  display: none !important;
+}
+.gt_package_btn {
+  font-family: Montserrat, sans-serif !important;
+  text-transform: uppercase !important;
+  background: #ffcc00 !important;
+  color: #1a2b48 !important;
+  font-size: 15px !important;
+  font-weight: bold;
+  letter-spacing: 0.2em !important;
+  border-radius: 0;
+  padding: 10px 25px !important;
+  width: 100% !important;
+}
+.gt_package_btn:hover {
+  background: #1c1c1c !important;
+  color: #bdbdbd !important;
+}
+.page .wpforms-confirmation-container-full p {
+  color: #000 !important;
+  font-size: 16px !important;
+}
+.text-shado {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 90px;
+  border-radius: 12px;
+  z-index: 0;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.63), transparent);
+}
+.owl-carousel-offer .owl-dots {
+  display: none;
+}
+.text_p {
+  position: absolute;
+  color: #fff;
+  bottom: 0;
+  width: 100%;
+  padding: 0 10px;
+}
+.text_p p {
+  margin: 5px 0;
+  font-size: 24px;
+}
+.carousel-wrap {
+  position: relative;
+}
+/* fix blank or flashing items on carousel */
+.owl-carousel-offer .item {
+  position: relative;
+  z-index: 100;
+  -webkit-backface-visibility: hidden;
+}
+/* end fix */
+.owl-carousel-offer .owl-nav > div {
+  margin-top: -26px;
+  position: absolute;
+  top: 50%;
+  color: #cdcbcd;
+}
+.owl-nav i {
+  font-size: 52px;
+}
+.owl-carousel-offer .owl-nav .owl-prev {
+  left: -30px;
+}
+.owl-carousel-offer .owl-nav .owl-next {
+  right: -30px;
+}
+.item {
+  overflow: hidden;
+}
+.item img {
+  border-radius: 10px;
+}
+.item {
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.item:hover {
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
+  cursor: pointer;
+}
+.offer-btn {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.6;
+  border-radius: 10px;
+  box-shadow: 0 0 30px 0 rgb(168 168 168 / 30%);
+  padding: 1px 8px;
+  border-radius: 10px;
+  background: #fff;
+  color: #3a3a3a;
+  color: #fff;
+  background-image: linear-gradient(100deg, #ffa62e 2%, #ea4d2c 100%);
+  margin-right: 6px;
+  width: 50px;
+  border: 1px;
+}
+.text-content {
+  bottom: 0;
+  position: absolute;
+}
+.owl-carousel-offer .owl-prev,
+.owl-carousel-offer .owl-next {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 3px 50px rgb(0 0 0 / 16%);
+  background-color: #fff !important;
+  border-radius: 50%;
+  z-index: 2;
+  top: 47%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  transition: background-color 0.3s ease-in-out;
+  position: absolute;
+}
+.fa {
+  background: linear-gradient(to right, #ff7102, #ff7102 19%, #ff0256);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 25px !important;
+}
+.text-content {
+  bottom: 45px;
+  position: absolute;
+  margin: auto;
+  width: 90%;
+  left: 10px;
+}
+.text-content p {
+  margin: 5px 0;
+  color: #fff;
+  font-size: 24px;
+}
+a:hover {
+  text-decoration: none;
+}
+.offer-btn:hover {
+  cursor: pointer;
+}
+div#homebooking.gt-mt-30 {
+  margin-top: 30px !important;
+}
+.wpforms-confirmation-scroll {
+  width: 100%;
+  float: none;
+}
+@media (max-width: 679px) {
+  p.gth_footer_contactDetail a {
+    font-size: 15px;
+  }
+}
+/*footer equire button*/
+.gt-popup-form {
+  display: none;
+  position: fixed;
+  z-index: 11111;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.gt-popup-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+.modal-open {
+  overflow: hidden;
+}
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+.close {
+  color: #000;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1;
+  opacity: 1;
+  text-shadow: none;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.gt-popup-header {
+  padding: 20px;
+  background-color: #ffcc00;
+  color: #fff;
+}
+.gt-popup-header p {
+  color: #1a2b48 !important;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 15px !important;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+}
+.gt-popup-body {
+  padding: 20px 20px 25px;
+}
+.wpforms-confirmation-container-full {
+  margin-bottom: 0 !important;
+}
+.gt_enquire_btn {
+  position: fixed !important;
+  bottom: 14px;
+  z-index: 11111;
+  right: 30px;
+  top: auto !important;
+  background: #ffcc00 !important;
+}
+.main-footer-sub .right {
+  margin-right: 150px;
+}
+.grecaptcha-badge {
+  /* bottom:8px!important;*/
+  z-index: 100000000;
+}
+.st-hotel-result .item-service {
+  min-height: 330px;
+}
+.gt-thank-you-section h2.vc_custom_heading {
+  font-size: 42px !important;
+}
+.gt-thank-you-section p {
+  font-size: 17px !important;
+}
+.gt-thank-button {
+  text-align: center !important;
+}
+.gt-thank-button .vc_btn3-inline {
+  margin: 10px;
+}
+.page-id-8423 .banner:after {
+  display: none !important;
+}
+.gt-click-call {
+  display: none !important;
+}
+.wpb_button,
+.wpb_content_element,
+footer .wpb_content_element,
+ul.wpb_thumbnails-fluid > li {
+  margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+  .gt-popup-content {
+    width: 90%;
+  }
+  .gt-popup-form {
+    padding-top: 0;
+  }
+  .iti-mobile .iti--container {
+    z-index: 1111111;
+  }
+  .mobile-sticky-footer {
+    position: sticky;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    height: 85px;
+    background: grey;
+    z-index: 10;
+  }
+  .gt_enquire_btn {
+    bottom: 22px;
+    right: 14px;
+    /*left:85px;*/
+  }
+  #whatsapp-chat-widget #wa-widget-send-button {
+    margin: 0 0 15px 0 !important;
+    left: 14px;
+  }
+  /*.gt-footer-col{
+         min-height:270px;
+    }*/
+  .main-footer-sub .right {
+    margin-right: 0px;
+  }
+  #homebooking .row {
+    display: block;
+  }
+  #homebooking .whitecontent {
+    padding: 0 15px;
+  }
+  .container .gt-pt-30 {
+    padding-top: 30px !important;
+  }
+  .container gt-pb-30 {
+    padding-bottom: 30px !important;
+  }
+  .container gt-mt-30 {
+    margin-top: 30px !important;
+  }
+  .container gt-mb-30 {
+    margin-bottom: 30px !important;
+  }
+  #main-footer .col-md-4.gt-footer-col {
+    width: 100%;
+    float: none;
+  }
+  .row .hidediv {
+    display: block;
+  }
+  #header,
+  .header {
+    min-height: 60px;
+  }
+  .st-hotel-result .item-service {
+    min-height: 400px;
+  }
+  img.tp-slider-alternative-image {
+    width: 100%;
+    height: auto;
+    min-height: 180px;
+    object-fit: cover;
+  }
+  div.st-aboutus-gallery .st-gallery .slogan h4 {
+    font-size: 24px;
+  }
+  .st-blog .content .article .post-inner .meta ul li {
+    font-size: 10px;
+  }
+  header#header .header .header-left .logo {
+    width: 35%;
+  }
+  .gt-thank-you-section h2.vc_custom_heading {
+    font-size: 35px !important;
+  }
+  .gt-thank-you-section p {
+    text-align: justify !important;
+  }
+  .gt-click-call {
+    display: block !important;
+    position: fixed !important;
+    bottom: 16px;
+    z-index: 11111;
+    top: auto !important;
+    background: #4dc247 !important;
+    left: 90px;
+    padding: 14px;
+    border-radius: 37px;
+    color: #fff;
+    fill: #fff;
+    -webkit-text-fill-color: #ffffff !important;
+    font-size: 20px;
+  }
+  .gt-click-call.fa {
+    background: #4dc247 !important;
+    padding: 14px;
+    border-radius: 37px;
+    color: #fff;
+    fill: #fff;
+    -webkit-text-fill-color: #ffffff !important;
+  }
+  div.search-result-page.st-tours .search-form-mobile{
+    display:none;
+  }
+}
+
+@media only screen and (max-device-width: 768px) and (orientation: landscape) {
+  .st-aboutus-team .item {
+    width: 50%;
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .about_team_layer .st-aboutus-team .thumb {
+    height: 240px;
+  }
+  #header .header .header-left {
+    float: none;
+    margin: 0 auto;
+  }
+  #main-footer .col-md-4.gt-footer-col {
+    width: 50%;
+    float: left;
+  }
+  #main-footer .col-md-4.footcall {
+    width: 33.3333%;
+    float: left;
+  }
+  .gtt_footer_social_layer a {
+    margin-right: 10px !important;
+    margin-bottom: 10px;
+  }
+  .st-hotel-result .item-service,
+  .st-rental-result .item-service {
+    width: 50%;
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+/*for ipad and tablet*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  #main-footer .col-md-3,
+  #main-footer .col-md-4 {
+    width: 33.3333%;
+    float: left;
+  }
+  p.gth_footer_contactDetail a {
+    font-size: 24px;
+  }
+  .gtt_footer_social_layer a {
+    margin-right: 12px !important;
+    margin-bottom: 10px;
+  }
+  .main-footer-sub .left {
+    margin-left: 45px;
+  }
+
+  #wa-widget-send-button {
+    margin: 0 0 20px 0 !important;
+  }
+  .gt_enquire_btn {
+    bottom: 24px;
+    right: 5px;
+  }
+  .gth_contactDiv.col-md-4 {
+    width: 33.33333333%;
+    float: left;
+  }
+  .gth_contactDiv .vc_column-inner {
+    min-height: 350px;
+  }
+  .row .hidediv {
+    display: block;
+  }
+  #header .header .header-left {
+    float: none;
+    margin: 0 auto;
+  }
+  #whatsapp-chat-widget #wa-widget-send-button {
+    margin: 0 0 20px 0 !important;
+    left: 5px;
+  }
+  #header,
+  .header {
+    min-height: 60px;
+  }
+  .st-hotel-result .item-service {
+    min-height: 400px;
+  }
+}
+
+.zsiq_theme1.zsiq_floatmain {
+  margin-bottom: 75px;
+}
+.search-result-page .banner h1 {
+  position: relative;
+  z-index: 111;
+  text-align: center;
+  bottom: 0px !important;
+  font-size: 50px;
+}
+.parent-pageid-17730 .banner:before {
+  display: none;
+}
+/* code start by ligin */
+.page-id-30719 .banner:before {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0) -33.45%,
+    rgba(0, 0, 0, 0.3) 99.99%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+.card-container {
+  border: 1px solid #ddd;
+  margin: 20px 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.7s ease 0s;
+}
+.flex-div-container {
+  display: flex;
+  align-items: center;
+}
+.card-container:hover {
+  box-shadow: rgba(33, 36, 44, 0.18) 0px 8px 16px 0px;
+}
+.tickMarkDiv {
+  display: flex;
+  align-items: center;
+}
+.tickMarkDiv p {
+  margin-bottom: 0;
+}
+.tickMarkSection {
+  margin-bottom: 10px;
+  display: flex;
+  gap: 4px;
+}
+.card-column {
+  flex: 1;
+}
+
+.background-image {
+  height: 250px; /* Adjust the height as needed */
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease-in-out;
+  background-size: 100% 100%;
+  border-radius: 5px 0 0 0px;
+}
+.tourList-section {
+  background-color: #f0f0f0;
+  padding: 5px;
+  align-items: flex-end;
+}
+.tourList-section p {
+  margin-bottom: 0;
+}
+.tourListReadMore {
+  display: flex;
+  justify-content: flex-end;
+}
+.background-image:hover {
+  transform: scale(1.1); /* Adjust the scale factor for the hover effect */
+}
+.tourList-section .readMoreHide {
+  display: none;
+}
+.image-overFlow {
+  overflow: hidden;
+  border-radius: 5px 0 0 0px;
+}
+.card-content {
+  padding: 10px;
+}
+.price-section {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+.price-section button {
+  background-color: #1c1c1c;
+  border-radius: 5px;
+}
+.page-id-30719 .banner {
+  height: 300px !important;
+}
+.tick-icon {
+  display: inline-block;
+  margin-right: 5px;
+  color: green;
+}
+
+.card-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 10px;
+}
+
+.price-amount {
+  font-weight: bold;
+}
+
+.view-detail-btn {
+  padding: 8px 15px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.owl-testimonialGT .card {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f0f0f0 !important;
+  border: 1px solid #f0f0f0;
+  border-radius: 5px;
+}
+.owl-testimonialGT .item:hover {
+  transform: scale(1);
+}
+.owl-testimonialGT .card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.owl-testimonialGT .card-content {
+  flex: 1;
+}
+
+.owl-testimonialGT .card-content h2 {
+  margin-bottom: 10px;
+}
+
+.owl-testimonialGT .card-content p {
+  color: #555;
+}
+.owl-testimonialGT .owl-nav {
+  position: absolute;
+  top: -35px;
+  right: 0;
+}
+.owl-testimonialGT button.owl-prev,
+.owl-testimonialGT button.owl-next {
+  font-size: 24px !important;
+  background: #000 !important;
+  color: #fff !important;
+  width: 30px;
+  height: 30px;
+  line-height: 16px !important;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+.flider_section section {
+  padding: 20px;
+  margin: 10px;
+  background-color: #f2f2f2;
+}
+.flider_section .sticky {
+  position: sticky;
+  top: 0;
+  width: 250px;
+}
+.price-amount {
+  font-size: 20px;
+}
+.card-content h2 {
+  letter-spacing: -1px;
+}
+.filter-div {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid #f0f0f0;
+  border-radius: 5px;
+  margin: 20px 0;
+  box-shadow: rgba(33, 36, 44, 0.18) 0px 0px 16px 0px;
+}
+.filter-div p {
+  font-size: 15px !important;
+}
+.lineStyle {
+  border: 1px solid #f0f0f0;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.filter-div label {
+  color: #808284;
+  font-size: 15px;
+  font-weight: 400;
+}
+.page-template .vc_tta-tab span,
+p.table_head,
+p.t_heading,
+.no_days,
+span.wt-sub-lb,
+.woo-tour-info span.sub-lb,
+p.table_head,
+p.t_heading,
+.no_days,
+span.wt-sub-lb,
+.woo-tour-info span.sub-lb,
+.group_contact_form
+  div.wpforms-container-full
+  .wpforms-form
+  button[type="submit"],
+.page-template .custom-single-product-title,
+.page-template p.table_head,
+.page-template p.t_heading,
+.page-template .no_days,
+.page-template span.wt-sub-lb,
+.page-template .woo-tour-info span.sub-lb {
+  font-family: "Playfair Display", serif !important;
+}
+.product-accordion .vc_tta-panel-body li {
+  font-weight: 200 !important;
+}
+p.price {
+  margin-bottom: 0 !important;
+  font-size: 20px !important;
+  font-weight: bold;
+  color: #000 !important;
+}
+p.price::before {
+  display: none !important;
+}
+#DateLayGT {
+  font-size: 16px;
+}
+.wpb_wrapper li {
+  color: #000;/*default !important is removed, check it and update.*/
+}
+.group_contact_form form select {
+  font-size: 13px !important;
+  background-color: #fff !important;
+  background: #fff !important;
+}
+.full-width {
+  width: 100%;
+}
+.full-width th {
+  padding: 10px 0;
+  text-align: center;
+  font-weight: bold;
+  background: #f7ca00;
+  font-size: 16px;
+}
+.full-width td {
+  padding: 10px 0;
+  text-align: center;
+  font-weight: 600;
+}
+.full-width tr td:first-child {
+  font-weight: 200;
+}
+/* code end by ligin */
+@media (min-width: 1024px) {
+  #header {
+    min-height: 90px;
+  }
+}
+.gt-popup-content .gt-popup-body div.wpforms-container-full .wpforms-form button[type=submit]{
+  font-family: Montserrat !important;
+}
+
+.f14 a
+{
+  color: #000;
+}

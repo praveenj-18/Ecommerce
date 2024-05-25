@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>PUMA</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="icon" href="C:\Users\prave\OneDrive\Desktop\ecommerce\puma-logo-cover-958x575.png">
+    </head>
+    <body>
+        <!-- styling the body color -->
+            <style>
+                body{
+                    background-color:#edede2;
+                }
+            </style>
+        <div class="alert alert-success alert-dismissible">
+            <a href="#" class="close" data-dismiss="alert">&times;</a>
+            <center><strong>10% offer on Monday,Wednesday,Friday</strong></center>
+        </div>
+        <!-- navigation bar -->
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">PRAVEEN</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="/ecommerce.html">Home</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="/men/men.html">MEN<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Casual</a></li>
+                                <li><a href="#">Formal</a></li>
+                                <li><a href="#">Running Shoes</a></li>
+                                <li><a href="#">slip-ons</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="/women/women.html">WOMEN<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Casual</a></li>
+                                <li><a href="#">Formal</a></li>
+                                <li><a href="#">Running shoes</a></li>
+                                <li><a href="#">slip-ons</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="/kids/kids.html">KIDS<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Casual</a></li>
+                                <li><a href="#">Formal</a></li>
+                                <li><a href="#">Running Shoes</a></li>
+                                <li><a href="#">School shoes</a></li>
+                            </ul>
+                        </li>	
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a 	href="#"  data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-signup"></span>SIGN UP</a>
+                                <div class="modal fade" id="myModal" role="dialog">
+                                    <div class="modal-dialog">
+                                    <!-- Modal content-->
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">SIGN UP</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                        <form>
+                                            <div class="form-group">
+                                                <label for="email">Email:</label>
+                                                <input type="email" class="form-control" id="email" placeholder="Enter your email" name="email">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="password">Password:</label>
+                                                <input type="password" class="form-control" id="password" placeholder="Enter your email" name="password"><br>
+                                                <button type="submit" class="btn btn-danger">Submit</button>
+                                            </div>
+                                        </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                        </li>
+                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>LOG IN</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <img src="kshoe5.avif" width="100%">
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <br>
+                    <p style="font-size: x-large; font-weight: bolder;">Comfort Kid's Sneakers</p><br>
+                    <p style="font-size: x-large; font-weight: bolder;">₹2,999</p>
+                     <!-- Size selection dropdown -->
+                    <div class="form-group">
+                        <label for="size">Select Size:</label>
+                        <select class="form-control" id="size">
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="8">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </div>
+                    <button type="button" class="btn btn-danger btn-lg">Add to cart</button>
+                </div>
+            </div>
+        </div>
+    </body><br>
+    <footer class="text-left text-lg-start text-white" style="background-color:black; color:white;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                    <h4>Company</h4><br>
+                    <p>The ecommerce website specializes in selling slip-on shoes, offering a wide variety of styles and designs to cater to different preferences. 
+                    In addition to their regular product line, the website also capitalizes on sports events by selling franchise dress attire. This allows customers 
+                    to support their favorite teams or athletes in style while providing an additional revenue stream for the business. With a focus on convenience, 
+                    quality, and embracing the spirit of sports, the website aims to provide customers with a seamless shopping experience for both everyday footwear 
+                    and special event attire.</p>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                    <h4>Product Categories</h4><br>
+                    <a href="#"><p>Men</p></a>
+                    <a href="#"><p>Women</p></a>
+                    <a href="#"><p>Kids</p></a>
+                    <a href="#"><p>Slip-ons</p></a>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                    <h4>Useful Links</h4><br>
+                    <a href="#"><p>Your account</p></a>
+                    <a href="#"><p>Shipping rate</p></a>
+                    <a href="#"><p>Return Policy</p></a>
+                    <a href="#"><p>Help</p></a>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                    <h4>Follow Us On</h4><br>
+                    <a href="#"><p>Instagram</p></a>
+                    <a href="#"><p>Facebook</p></a>
+                    <a href="#"><p>Twitter</p></a>
+                    <a href="#"><p>Youtube</p></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</html>
